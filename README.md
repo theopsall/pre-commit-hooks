@@ -59,3 +59,5 @@ To update the hooks to their latest versions:
 ```bash
 pre-commit autoupdate
 ```
+
+Helpful medium [article](https://gatlenculp.medium.com/effortless-code-quality-the-ultimate-pre-commit-hooks-guide-for-2025-57ca501d9835)
