@@ -61,3 +61,7 @@ pre-commit autoupdate
 ```
 
 Helpful medium [article](https://gatlenculp.medium.com/effortless-code-quality-the-ultimate-pre-commit-hooks-guide-for-2025-57ca501d9835)
+
+https://github.com/astral-sh/ruff-pre-commit
+
+https://github.com/astral-sh/uv-pre-commit
