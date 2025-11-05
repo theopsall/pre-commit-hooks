@@ -1,12 +1,12 @@
 repos:
   - repo: https://github.com/gitleaks/gitleaks
-    rev: v8.22.1
+    rev: v8.29.0
     hooks:
       - id: gitleaks
-        name: "🔒 security · Detect hardcoded secrets"
+        name: "Security · Detect hardcoded secrets"
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.11.1
+    rev: v0.14.3
     hooks:
       - id: ruff
         types_or: [python, pyi]
@@ -17,11 +17,11 @@ repos:
   # To make sure your uv.lock file is up to date even if your pyproject.toml file was changed via pre-commit
   - repo: https://github.com/astral-sh/uv-pre-commit
     # uv version.
-    rev: 0.6.8
+    rev: 0.9.7
     hooks:
       - id: uv-lock
   # To keep your requirements.txt file updated using pre-commit:
   - repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.6.8
+    rev: 0.9.7
     hooks:
       - id: uv-export
